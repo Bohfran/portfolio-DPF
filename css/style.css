@@ -1,24 +1,253 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300i,400i,500i,700,800,900&display=swap');
 
+/* @font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url("../Montserrat/Montserrat-Black.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-BlackItalic.ttf") format(truetype);  
+    src: url("../Montserrat/Montserrat-Bold.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-BoldItalic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-ExtraBold.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-ExtraBoldItalic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-ExtraLight.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-ExtraLightItalic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-Italic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-Light.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-LightItalic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-Medium.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-MediumItalic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-Regular.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-SemiBold.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-SemiBoldItalic.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-Thin.ttf") format(truetype); 
+    src: url("../Montserrat/Montserrat-ThinItalic.ttf") format(truetype);  
+    font-size: normal;
+    font-weight: normal;
+}  */
+
 
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat' sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 
 /* Header */
 
 #header{
-    background: url(../img/header.jpg) no-repeat center top / cover;
+    background: url(../img/header.jpg) no-repeat  center top / cover;
+    
     /* height: 100vh; */
-    height: 1800px;
+    height: 1750px;
     
 }
 
+@media screen and (max-width: 1920px){
+    #header{
+        height: 2300px;
+    }
+
+    .head-content{
+        margin-top: 5%;
+    }
+
+    .display{
+        margin-top: 12%;
+    }
+
+    .devices{
+        /* height: 3000px; */
+    }
+
+ 
+    /* .block_iphone{
+        display: flex;
+        height: 3000px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: space-between;
+    }  */
+
+/* 
+    
+    .block_iphone{
+        padding-bottom: 1000px;
+    }
+      */
+
+    
+  
+
+}
+
+    
+
+@media screen and (max-width: 1800px){
+    #header{
+        height: 2200px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    #header{
+        height: 2100px;
+    }
+}
+
+@media screen and (max-width: 1590px){
+    #header{
+        height: 2000px;
+    }
+}
+
+@media screen and (max-width: 1480px){
+    #header{
+        height: 1900px;
+    }
+}
+
+
+@media screen and (max-width: 1380px){
+    #header{
+        height: 1850px;
+    }
+
+    .devices{
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1320px){
+    #header{
+        height: 1750px;
+    }
+
+    .devices{
+        /* height: 1000px; */
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    #header{
+        height: 1650px;
+    }
+
+    .devices{
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    #header{
+        height: 1570px;
+    }
+
+    .devices{
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1056px){
+    #header{
+        height: 1510px;
+    }
+
+    .devices{
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 983px){
+    #header{
+        height: 1450px;
+    }
+
+    .devices{
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 923px){
+    #header{
+        height: 1400px;
+    }
+
+    .devices{
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 867px){
+    #header{
+        height: 1350px;
+    }
+
+    .devices{
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 811px){
+    #header{
+        height: 1300px;
+    }
+
+    .devices{
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 753px){
+    #header{
+        height: 1250px;
+    }
+
+    .devices{
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #header{
+        height: 1230px;
+    }
+
+    .devices{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 677px){
+    #header{
+        height: 1200px;
+    }
+
+    .devices{
+        height: 520px;
+    }
+}
+
+
+@media screen and (max-width: 491px){
+    #header{
+        height: 1150px;
+    }
+
+    .devices{
+        height: 450px;
+    }
+}
+
 .container{
-    max-width: 1200px;
+    width: 80%;
     margin: 0 auto;
     padding: 15px;
     padding-bottom: 0;
@@ -40,6 +269,7 @@ body{
     color: #fefefe;
     line-height: 10px;
     font-weight: bold;
+    font-size: 20px;
    
 }
 
@@ -48,9 +278,9 @@ body{
 
 }
 
-.nav-itm{
+/* .nav-itm{
     margin-left: 80px;
-}
+} */
 
 .head-content{
     display: flex;
@@ -73,13 +303,18 @@ body{
 
 
 .display{
-    width: 100%;
-    /* transform: translateX(-10%); */
-    padding-top: 50px;
-    
-   
-
+    padding-top: 6%;
 } 
+
+@media screen and (max-width: 1200px){
+    .display{
+        padding-top: 3%;
+    }
+}
+
+.display img{
+    width: 100%;
+}
 
 #heading{
     background: #f5f5f5;
@@ -109,14 +344,14 @@ body{
 }
 
 .head-container_block h2{
-    font-size: 60px;
+    font-size: 50px;
     color: #022635;
     text-transform: uppercase;
 }
 
 
 .head-container_block p{
-    font-size: 30px;
+    font-size: 25px;
     color: #898989;
     line-height: 1.3em;
     margin: 0;
@@ -160,6 +395,7 @@ body{
 
 .devices{
     display: flex;
+    /* height: 100%;  */
 }
 
 .block_one{
@@ -224,9 +460,7 @@ body{
 
 .block_iphone_second{
     display: flex;
-   
     height: 600px;
-    
     /* padding-bottom: 100px;*/
     justify-content: space-between;
 }
@@ -280,7 +514,7 @@ body{
 /* container_6 */
 
 #container_6{
-    background: #96c73a;
+    background: url(../img/фон_айфони.png) no-repeat center top / cover;
 }
 
 
